@@ -1,0 +1,22 @@
+@charset  'utf-8';
+* {
+    margin: 0px;
+    padding: 0px;
+}
+h1 {
+    padding: 3px;
+    background-color: lightgray;
+    border: black;
+    width: max-content;
+}
+body {
+    background-color: lightblue;
+}
+main {
+    background-color: aqua;
+}
+footer {
+    background-color: lightgreen;
+    margin: 0px;
+    padding: 0px;
+}
