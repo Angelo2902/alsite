@@ -6,17 +6,14 @@
 h1 {
     padding: 3px;
     background-color: lightgray;
-    border: black;
-    width: max-content;
 }
 body {
     background-color: lightblue;
 }
 main {
     background-color: aqua;
-}
-footer {
-    background-color: lightgreen;
-    margin: 0px;
-    padding: 0px;
+    width: 600px;
+    height: auto;
+    margin: auto;
+    padding-top: 50px;
 }
