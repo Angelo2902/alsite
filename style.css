@@ -2,18 +2,67 @@
 * {
     margin: 0px;
     padding: 0px;
+    text-align: justify;
+}
+@font-face { 
+    font-family: Cavet;
+    src: url(fontes/Caveat/Caveat-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Passion;
+    src: url(fontes/Sriracha/Sriracha-Regular.ttf);
+}
+:root {
+    --cor1: #a22c30;
+    --cor2: #ffd1cb;
+    --cor3: #ffd2cc;
+    --cor4: #ffe7e3;
+    --cor5: #ffece8;
+    --font1: Cavet;
+    --font2: Passion;
 }
 h1 {
-    padding: 3px;
-    background-color: lightgray;
+    text-align: center;
+    font-size: 6rem;
+    font-family: Cavet;
+}
+header {
+    border-radius: 10px;
+    margin:20px auto;
+    text-align: center;
+    background-color: var(--cor4);
+    max-width: 800px;
+    padding: 10px;
+    font-family: var(--font2);
+}
+header > nav {
+    text-align: center;
+    
+}
+nav > a{
+    text-align: center;
+    color: var(--cor1);
+    margin: 0px 20px;
+    text-decoration: none;
+    transition-duration: 1s;
 }
 body {
-    background-color: lightblue;
+    background-color: var(--cor2);
 }
 main {
-    background-color: aqua;
-    width: 600px;
-    height: auto;
+    max-width: 800px;
+    max-height: 100vh;
     margin: auto;
     padding-top: 50px;
+    border-radius: 20px 20px 0px 0px;
+    background-color: var(--cor4);
+    
+    text-indent: 20px;
+}
+footer > p{
+
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    background-color: var(--cor4);
 }
