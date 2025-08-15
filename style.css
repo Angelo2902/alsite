@@ -45,6 +45,7 @@ nav > a{
     margin: 0px 20px;
     text-decoration: none;
     transition-duration: 1s;
+    font-size: 2vw;
 }
 body {
     background-color: var(--cor2);
@@ -65,4 +66,14 @@ footer > p{
     margin: auto;
     text-align: center;
     background-color: var(--cor4);
+}
+
+
+iframe {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    display: flex;
+    margin: auto;
+    border:black 2px;
 }
